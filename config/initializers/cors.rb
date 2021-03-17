@@ -7,7 +7,7 @@
 
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
   allow do
-    origins 'h/ttps://react-frontend-deploy.netlify.app'
+    origins 'https://react-frontend-deploy.netlify.app'
     # origins '*'
 
     resource '*',
